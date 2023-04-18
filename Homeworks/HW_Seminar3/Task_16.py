@@ -12,13 +12,14 @@ import random
 N = int(input("Введите число N: "))
 x = int(input("Введите число, количество записей которого нужно посчитать: "))
 
-count = 0
+# count = 0
 some_list = []
 
 for i in range(N):
     some_list.append(random.randint(1, 5))
-    if some_list[i] == x:
-        count += 1
+    # if some_list[i] == x:
+    #     count += 1
 
 print(some_list)
-print(count)
+# print(count)
+print(some_list.count(x))
