@@ -15,6 +15,10 @@
 
 # 1. Лямбда-функция:
 
+# Лямбда функции в Python – это такие функции, которые не имеют названия
+
+# lambda arg1, arg2, ... : operation
+
 # def math(op, x, y):
 #     print(op(x, y))
 #
@@ -54,6 +58,9 @@
 #-----------------------------------------------------------------------------------------------------------------------
 
 # 2. Функция map:
+
+# map() перебирает элементы итерируемого массива (или коллекции) и возвращает новый массив (или итерируемый объект),
+# который является результатом применения функции преобразования к каждому элементу исходного итерабельного массива.
 
 # list_1 = [x for x in range(1, 20)]
 # print(list_1)
@@ -243,11 +250,11 @@
 #
 # 1) os.path.basename(path) - базовое имя пути
 # import os
-# print(os.path.basename('C:/Users/79190/PycharmProjects/webproject/main.py')) #'main.py'
+# print(os.path.basename('C:/Users/79190/PycharmProjects/webproject/Task_34.py')) #'Task_34.py'
 #
 # 2) os.path.abspath(path) - возвращает нормализованный абсолютный путь.
 # import os
-# print(os.path.abspath('main.py')) # 'C:/Users/79190/PycharmProjects/webproject/main.py'
+# print(os.path.abspath('Task_34.py')) # 'C:/Users/79190/PycharmProjects/webproject/Task_34.py'
 #
 # Это лишь малая часть возможностей модуля os.
 
